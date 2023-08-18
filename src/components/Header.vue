@@ -2,9 +2,9 @@
   <header class="app-header">
         <ul class="nav-list">
         <li><router-link to="/">Home</router-link></li>
-        <li><router-link to="/eur-to-usd">EUR to USD</router-link></li>
-        <li><router-link to="/eur-to-gbp">EUR to GBP</router-link></li>
-        <li><router-link to="/eur-to-aud">EUR to AUD</router-link></li>
+        <li><router-link to="/exchange-rates/USD">EUR to USD</router-link></li>
+        <li><router-link to="/exchange-rates/GBP">EUR to GBP</router-link></li>
+        <li><router-link to="/exchange-rates/AUD">EUR to AUD</router-link></li>
       </ul>
   </header>
 </template>
@@ -16,7 +16,7 @@ export default {
 </script>
 
 <style scoped>
-/* Add CSS styling specific to the header component */
+
 .navbar {
   background-color: #333;
   padding: 10px 0;
@@ -34,7 +34,8 @@ export default {
 }
 
 .nav-list li a {
-  text-decoration: none;
-  color: #fff;
+  text-decoration: underline;
+  color: DarkSalmon;
+  font-weight: bold;
 }
 </style>

@@ -2,7 +2,7 @@
   <div id="app">
     <Header />
     <main>
-      <router-view />
+      <router-view/>
     </main>
     <Footer />
   </div>
@@ -25,10 +25,10 @@ export default {
 #app {
   display: flex;
   flex-direction: column;
-  min-height: 100vh; /* Set the minimum height to fill the viewport */
+  min-height: 100vh;
 }
 main {
-  flex-grow: 1; /* Allow the main content to expand and take available space */
+  flex-grow: 1;
 }
 body {
   margin: 0;
